@@ -1,0 +1,23 @@
+{
+  "name": "boiler-plate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "backend" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "juyeori",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "experss": "0.0.1-security",
+    "express": "^4.17.2",
+    "git": "^0.1.5",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
